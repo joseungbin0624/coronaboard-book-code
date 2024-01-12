@@ -36,4 +36,4 @@ aws s3 sync \
 --cache-control public,max-age=31536000,immutable \
 --exclude "*.html" --exclude "*.json" \
 --delete \
-./public s3://coronaboard2.xyz
+./public
